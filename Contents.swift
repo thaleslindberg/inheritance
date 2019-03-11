@@ -54,7 +54,7 @@ class Teacher : Employee {
     
     init(subjectsTaught: String){
         self.subjectsTaught = subjectsTaught
-        super.init(name: "James", age: 45, address: "2640 Sherbrooke Ouest", salary: 3955)
+        super.init(name: "James", age: 43, address: "2640 Sherbrooke Ouest", salary: 3955)
     }
     
     override func info() {
